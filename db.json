@@ -1,0 +1,46 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Watch",
+      "price": "99.99$",
+      "category": "Watch",
+      "image": "./assets/image/watch.jpeg"
+    },
+    {
+      "id": 2,
+      "name": "Formal Shirt",
+      "price": "49.99$",
+      "category": "Shirt",
+      "image": "./assets/image/shirt.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Jewelry",
+      "price": "199.99$",
+      "category": "Jewelry",
+      "image": "./assets/image/jewelry.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Evening Gown",
+      "price": "299.99$",
+      "category": "Gown",
+      "image": "./assets/image/gown.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Jewelry Gold",
+      "price": "599.99$",
+      "category": "Jewelry",
+      "image": "./assets/image/jewelry Gold.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Blue Jewelry",
+      "price": "699.99$",
+      "category": "Jewelry",
+      "image": "./assets/image/blue jewelry.jpg"
+    }
+  ]
+}

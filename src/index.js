@@ -9,13 +9,13 @@ const filters = {
 };
 
 document.addEventListener("DOMContentLoaded", () => {
-  axios
-    .get("http://localhost:3000/products")
-    .then((res) => {
-      allProductsData = res.data;
-      renderProducts(res.data, filters);
+  fetch('db.json')
+    .then(response => response.json())
+    .then(data => {
+      allProductsData = data.products;
+      renderProducts(data.products, filters);
     })
-    .catch((err) => console.log(err));
+    .catch(err => console.log(err));
 });
 
 function renderProducts(_products, _filters) {
